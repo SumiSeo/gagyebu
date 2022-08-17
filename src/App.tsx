@@ -1,4 +1,5 @@
 import React from "react";
+import { GetWeb3, GetContract, GetAccount } from "./BlockchainUtil";
 
 // 1. Importing other modules
 class App extends React.Component {
@@ -15,14 +16,14 @@ class App extends React.Component {
     this.init();
   }
 
-  async init() {
-    // 2. Load web3
-    // 3. Load Account
-    // 4. Load Smart-Contract instance
-  }
+  async init() {}
 
   render() {
-    return <div>Avalanche evoting application</div>;
+    return (
+      <div>
+        <div>hi</div>
+      </div>
+    );
   }
 }
 export default App;
